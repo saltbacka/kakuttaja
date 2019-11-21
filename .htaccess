@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} \.(jpg|jpeg|gif|png|css|js|html)$
+RewriteRule ^(.*)$ index.php [NC,L,QSA]
